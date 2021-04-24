@@ -1,0 +1,78 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	background: white;
+	display:grid;
+	grid-template-columns: 4fr 2fr ;
+	grid-template-rows:17vh 20vh 53vh 10vh; 
+	grid-template-areas: "header header"
+	                     " nav nav "
+	                     " aside main"
+	                     "footer footer"
+}
+header{
+	background: #20B2AA;
+	grid-area:header;
+}
+header h1{
+	padding: 15px 100px;
+}
+#menu ul{
+	margin: 0;
+	background-color: #1b9891;
+	list-style: none;
+}
+#menu ul li{
+	display: inline;
+	padding-left:55px;
+}
+#menu ul li a{
+	padding: 10px 10px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	color: #22c3bb;
+}
+
+
+
+main{
+	background: white;
+	grid-area:main; 
+}
+aside{
+	background: white;
+	grid-area: aside;
+	
+}
+footer{
+	background: #20B2AA;
+	grid-area:footer;
+}
+.margem ul{
+	margin-top: 10;
+	list-style: none;
+}
+.margem ul li{
+	padding: 2.5;
+}
+
+.p1{
+	width: 650px;
+}
+.p2{
+	padding-bottom: 80px;
+	width: 650px;
+}
+p{	margin-left: 90;
+	padding: 0;
+}
+h2{
+	margin-left: 90;
+}
+aside{
+	margin-right: 90;
+}
